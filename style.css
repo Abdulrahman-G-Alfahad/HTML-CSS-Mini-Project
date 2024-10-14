@@ -52,7 +52,7 @@ body {
   overflow: hidden;
   margin: 16px 0 0 0;
   height: 268px;
-  width: 1240px;
+  width: 1204px;
 }
 
 .movie-cards-section > * {
@@ -104,4 +104,24 @@ body {
 
 .movie-cards-section > .movie-card-6 {
   background-image: url(https://occ-0-3495-55.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABbFn9Ad1QrMnFy2OPDVcastLf1Uzm8Ia8Pw4-PkJigC2-6tjbfzGg75j0tNjrreiKdOhvY55takp7DuLnXgrveqbSvhJZefw5La1U0dlqN00wSD37DAu7GWo-Kk1WkE0ZZ1uz-yU0xkjCVjnI5U4C-jmBDi-2SSMwoc6l9SJsQgjxlgq66HsIzfoJwKD9BghHdS_EoSLGXyBw8BaC4oiQz9EcgJjovHb0ijNlJvFf1GLG570kJ1JTfYGKT6NRr9Gz_VUp1MIWm-hmUYpvDfvcMTRAYd4SBt0-f1RfH9GLP0NUz0LasvR4eZPr_XkvO4ZpvLJCLTzpbKhycE0GNPi4EyvGABdt4XcJu9gturGL_GZh0De19c.jpg?r=57a);
+}
+
+.movie-cards-section-wrapper {
+  display: flex;
+}
+
+.right-button {
+  cursor: pointer;
+  height: 7.5rem;
+  width: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: rgba(26, 26, 26);
+  color: rgb(255, 255, 255);
+  margin: 82px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.right-button:hover {
+  background-color: rgba(51, 51, 51);
 }
