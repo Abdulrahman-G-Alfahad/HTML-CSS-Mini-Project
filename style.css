@@ -1,1 +1,138 @@
+/* .container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: left;
+  margin-bottom: 5%;
+} */
 
+.footerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: left;
+  margin-bottom: 5%;
+}
+
+.inputDetails {
+  height: 40%;
+  width: 50%;
+}
+
+.textData {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.footerText {
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkgray;
+  size: 12px;
+  text-align: left;
+  text-decoration-line: underline;
+  text-decoration-color: darkgrey;
+}
+
+.endText {
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkgray;
+  size: 16px;
+  text-align: left;
+}
+
+td {
+  padding: 2%;
+}
+
+.item {
+  width: 70%;
+  padding: 2%;
+  background-color: rgba(59, 59, 59);
+  border: 3px black;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  align-items: space-between;
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+
+.item:hover {
+  background-color: gray;
+}
+
+.detailsText {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-top: 2%;
+  color: white;
+  /* margin-bottom: 2%; */
+}
+
+.detailsP {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  border: 1px solid #ddd;
+}
+
+ul li {
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+
+/* Copied Code */
+
+.dropdown-menu {
+  display: flex;
+  flex-wrap: nowrap;
+  align-self: left;
+
+  box-sizing: border-box;
+  background: rgba(15, 15, 15);
+  border-radius: 0.25rem;
+  border-width: 0.0625rem;
+  padding-right: calc(0.75rem + 0rem);
+
+  width: 100px;
+  height: 40px;
+  border: solid rgba(94, 94, 94) 1px;
+
+  margin: 16px 24px 0 0;
+}
+
+.dropdown-menu > p {
+  padding: 8px 0px 8px 12px;
+  margin: 0 0 0 0;
+}
+
+.dropdown-menu > .bi-caret-down-fill {
+  margin: auto;
+  padding-left: 10px;
+}
